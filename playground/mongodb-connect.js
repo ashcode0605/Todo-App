@@ -1,10 +1,11 @@
 const MongoClient = require('mongodb').MongoClient;
 
 // main database url
-const url = 'mongodb://localhost:27017';
+// const url = 'mongodb://localhost:27017';
+const url = 'mongodb://<ashwani>:<iamgoodboy6@ds261440>.mlab.com:61440';
 
 //name of database
-const dbname = 'TodoApp';
+const dbname = 'ashwani0605';
 
 MongoClient.connect(url,(err,client) => {
 
